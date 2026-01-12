@@ -73,18 +73,6 @@ L'application est composée de 6 microservices :
 - Maven 3.6+
 - Git
 
-## 🚀 Installation
-
-1. Clonez le repository :
-```bash
-git clone https://github.com/VOTRE_USERNAME/ecom-ii-bdcc-app.git
-cd ecom-ii-bdcc-app
-```
-
-2. Compilez le projet :
-```bash
-mvn clean install
-```
 
 ## ▶️ Démarrage des services
 
@@ -189,43 +177,9 @@ Une fois tous les services démarrés, vous pouvez accéder aux interfaces suiva
 ![Billing Service](docs/images/billing-service.png)
 *Interface du service de facturation*
 
-### Résultats des tests
-![Test Results](docs/images/test-results.png)
-*Résultats des tests d'intégration*
 
-> 💡 **Note** : Pour ajouter vos propres captures d'écran :
-> 1. Créez un dossier `docs/images/` à la racine du projet
-> 2. Ajoutez vos images (format PNG ou JPG recommandé)
-> 3. Mettez à jour les liens dans cette section avec le nom de vos fichiers
-
-## 📁 Structure du projet
-
-```
-ecom-ii-bdcc-app/
-├── config-service/          # Service de configuration
-├── discovery-service/       # Service de découverte (Eureka)
-├── gateway-service/          # API Gateway
-├── customer-service/         # Service client
-├── inventory-service/        # Service inventaire
-├── billing-service/          # Service facturation
-├── config-repo/              # Repository de configuration
-├── start-services.sh         # Script de démarrage
-├── stop-services.sh          # Script d'arrêt
-└── README.md                 # Ce fichier
-```
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
-
-## 📄 Licence
-
-Ce projet est sous licence MIT.
 
 ## 👤 Auteur
+Soussi Larbi
 
-Votre nom - [Votre GitHub](https://github.com/VOTRE_USERNAME)
 
----
-
-⭐ Si ce projet vous a été utile, n'hésitez pas à lui donner une étoile !
